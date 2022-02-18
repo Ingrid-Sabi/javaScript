@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 27- eventos fields</title>
+    <script src="js/contac_field.js"></script>
+    <link rel="stylesheet" href="css/27-eventosfields.css">
+</head>
+<body>
+    
+</ul> 
+<h1>contactenos</h1>
+<form action="#" method="POST" onsubmit="tu('txt1')" onsubmit="td('txt2')"onsubmit="tt('txt3');" >
+    <fieldset>
+        <legend>Ingrse la Informacion</legend>
+    Ingrese su nombre <br>
+    <input type="text" name="nombres" id="txt3" ><br> <br>
+    Ingrese su apellidos <br>
+    <input type="text" name="apellidos"  id="txt2" ><br> <br>
+    Ingrese un comentario <br>
+    <textarea name="pregunta"  cols="60" rows="5" id="txt1"></textarea><br><br>
+     Cómo desea adquirir el producto<br>
+    <input type="radio" name="producto"value="cuotas">cuotas<br>
+    <input type="radio" name="producto"value="de-contado">de contado<br>
+    <input type="radio" name="producto"value="no-esta-interesado">no esta interesado<br><br>
+    clasificación de electrodomésticos según su uso<br>
+    <input type="checkbox" name="clasificacion-electrodomesticos" value="cocina">cocina<br>
+    <input type="checkbox" name="clasificacion-electrodomesticos" value="dormitorio">dormitorio<br>
+    <input type="checkbox" name="clasificacion-electrodomesticos" value="aseo">aseo de la casa<br>
+    <input type="checkbox" name="clasificacion-electrodomesticos" value="sala de estudia">sala de estudo<br>
+    <input type="checkbox" name="clasificacion-electrodomesticos" value="belleza">belleza<br><br>
+    Ciudad de Residencia <br>
+    <select name="ciudad" >
+        <option value="Neiva">Neiva</option>
+        <option value="Pitalito">Pitalito</option>
+        <option value="Garzon">Garzón</option>
+        <option value="Timana">Timaná</option>
+        <option value="Tarqui">Tarqui</option>
+        <option value="Altamira">Altamira </option>
+        <option value="Acevedo">Acevedo</option>
+        <option value="san Agustin">san Agustín</option>
+    </select><br><br>
+    <input type="submit" value="Enviar">
+</fieldset>
+</form>
+ 
+
+   
+</body>
+</html>
+
+
+
+
