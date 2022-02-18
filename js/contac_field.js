@@ -1,32 +1,24 @@
 "use strict"
 
-function tt(txt3){
-    let tx = document.getElementById(txt3).value;
+function validar(){
+    let nombreUsuario = document.getElementById("nombres").value;
 
-    if (tx === ""){
-        alert("Información incompleta ");
+    if (nombreUsuario === ""){
+        alert("Información incompleta, escriba el nombre ");
+    } let apellidosUsuario = document.getElementById("apellidos").value;
+
+    if (apellidosUsuario === ""){
+        alert("Información incompleta, escriba el apellido ");
+    }
+    let comentarioUsuario = document.getElementById("comentario").value;
+
+    if (comentarioUsuario === ""){
+        alert("Información incompleta, escriba el comentario ");
     }
     else {
         alert("La informacion ha sido enviada con exito!")
     }
-}
-function td(txt2){
-    let t = document.getElementById(txt2).value;
+    
 
-    if (t === ""){
-        alert("Información incompleta ");
-    }
-    else {
-        alert("La informacion ha sido enviada con exito!")
-    }
 }
-function tu(txt1){
-    let txt = document.getElementById(txt1).value;
 
-    if (txt === ""){
-        alert("Información incompleta ");
-    }
-    else {
-        alert("La informacion ha sido enviada con exito!")
-    }
-}
