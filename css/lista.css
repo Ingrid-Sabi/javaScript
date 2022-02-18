@@ -1,0 +1,24 @@
+ul{
+    font-size: 1.7em;
+    text-align: right;
+    background: rgb(113, 138, 252);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: white;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.menu-contactenos{
+    margin-right: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 1.2em;
+    font-weight: 900;
+}
