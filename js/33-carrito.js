@@ -1,5 +1,7 @@
 "use strict"
 
+calcularTotal();
+
 function aumentarCompra() {
     let cantidadProducto = document.getElementById("cantidad").innerHTML;
     let cantidadInt = parseInt(cantidadProducto);
@@ -8,6 +10,7 @@ function aumentarCompra() {
     }else{
          document.getElementById("cantidad").innerHTML = cantidadInt;
     }
+    calcularTotal();
 }
 function disminuirCompra() {
     let disminuir =document.getElementById('cantidad').innerHTML;
@@ -17,4 +20,14 @@ function disminuirCompra() {
     }else{
     document.getElementById("cantidad").innerHTML = disminuir;
    }
+   calcularTotal();
 }
+function calcularTotal(){
+    let valorUnidad = document.getElementById('valorUnitario').innerHTML;
+    let cantidadElemetos = document.getElementById('cantidad').innerHTML;
+    let costoTotalp = valorUnidad * cantidadElemetos;
+    document.getElementById('costoTotal').innerHTML = costoTotalp;
+}
+
+
+
