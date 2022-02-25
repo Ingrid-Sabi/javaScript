@@ -4,3 +4,6 @@
 .visible{
     visibility: visible;
 }
+body{
+    background: black;
+}
