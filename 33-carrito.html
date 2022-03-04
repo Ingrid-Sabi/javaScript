@@ -1,60 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carrito</title>
-    
-    <link rel="stylesheet" href="css/33-carrito.css">
-   
-</head>
-<body>
-    <label id="costoTotal">0</label>
-    <div> <img src="img/libro.jpg" width="200px" alt="libro"> </div>
-    <div class="div-boton">
-    <input type="button" onclick="disminuirCompra()" value="-">
-    <label id="cantidad">1</label>
-    <input type="button" onclick="aumentarCompra()" value="+">
-    </div>
-    <label id="valorUnitario">35000</label>
-        <script src="js/33-carrito.js"></script>
-</body>
-</html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito de Compras</title>
+
+    <link rel="stylesheet" href="css/33-carrito.css">
+</head>
+
+<body>
     
-    <link rel="stylesheet" href="css/carrito_compras.css">
+        <fieldset class="contenedorP">
+            <div class="contenedorP">
+                <div class="contenSutTotal">Total:<label id="Subtotal" class="precio"></label></div>
+                <div class="conten1">Proceder al pago(<label id="numeroProductos">1 producto)</label></div>
+                
+                <div class="imagen"><img src="img/mujer.jpg" width="140px" alt=""></div><br>
+                <div class="descripcion"><br>
+                    <p> La conmovedora historia de una familia que sobrevivió a la anorexia de su hija adolescente. María José Jiménez sufrió de anorexia y bulimia a los quince años, y esto casi la lleva a la muerte. En este libro cara y cruz encontramos, por un lado, el testimonio de María José, y por el otro el de Sandra, su mamá, que le cuentan al lector cómo vivieron esta aterradora experiencia y cómo salieron adelante.</p>
+
+
+                    <label>COP:</label><label id="valorUnitario" class="precio"></label><br><br>
+                    
+                </div><br><br>
+                <div class="botones">
+                    <input type="button" onclick="disminuirPedido()" value="-">
+                    <label id="cantidadElementos">1</label>
+                    <input type="button" onclick="aumentarPedido()" value="+">
+                </div><br><br>
+                
+               
+            </div>
+            <script src="js/33-carrito.js"></script>
+        </fieldset>
+    
+</body>
+
+</html>

@@ -1,25 +1,63 @@
+.contenedorP{
+     
+    width: 30%;
+    font-weight: 500;
+    margin-left: 40px;
+    font-size: 1em;
+    margin-top: 40px ;
+    display: grid;
+    grid-template-columns: 40px      40px     40px     40px     200px;
+    grid-template-areas:   "contenSutTotal contenSutTotal contenSutTotal contenSutTotal contenSutTotal"
+                           "conten1  conten1  conten1  conten1  conten1"
+                           "conten2  conten2  conten2  conten2  conten2"
+                           "imagen   imagen   imagen   imagen   descripcion" 
+                           "imagen   imagen   imagen   imagen   descripcion"
+                           "botones  botones  botones  botones  btnEliminar"
+                           "botones  botones  botones  botones  guardar"
+                           "texto    texto    texto    texto    texto" ;
+}
+.conten1{
+    grid-area: conten1;
+    font-size: 1.3em;
+    background-color: rgb(167, 86, 90);
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
 
-input[type="button"]{
-    background-color: rgb(184, 184, 184);
+.imagen{
+    grid-area: imagen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion{
+    grid-area: descripcion;
+}
+.botones{
+    grid-area: botones;
+    /* background-color: gray; */
+    margin: 0 auto;
+    width: 60%;
+}
+
+
+.texto{
+    grid-area: texto;
+    text-align: center;
+}
+.resta{
+    grid-area: restar;
+}
+.sumar{
+    grid-area: sumar;
+}
+
+.precio{
     color: black;
-    width: 2%;
-    border-radius: 5px;
-    border: none;
-    font-size: 1.2em;
+    font-size: 1.3em;
+    font-weight: 600;
+
 }
-label{
-    font-size: 1.1em;
-}
-.div-boton{
-    padding: 20px;
-    margin: 10px auto;
-}
-
-
-
-
-
-
-
-
-
