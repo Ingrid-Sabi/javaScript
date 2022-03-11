@@ -2,7 +2,7 @@
      
     width: 40%;
     font-weight: 500;
-    margin-left: 60px;
+    margin:0 auto;
     font-size: 1em;
     margin-top: 60px ;
     display: grid;
@@ -43,4 +43,8 @@ h1{
 }
 tr,th,td{
     border: 1px solid rgb(255, 17, 17);
+}
+td{
+    background: rgb(252, 251, 251);
+    color: rgb(5, 6, 7);
 }
