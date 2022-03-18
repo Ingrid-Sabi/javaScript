@@ -32,6 +32,7 @@
  
   display: block;
   margin: 15px auto 0 auto;
+  
   grid-area: busqueda;
   font-weight: regular;
   font-family: roboto, sans-serif;
