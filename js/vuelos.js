@@ -33,25 +33,25 @@ function definirJornada(horaEvento) {
     return horaEventoTxt;
 }
 
-    let horaSalida1 = new Date(2022, 02, 12, 10, 12, 0);
-    let horaLlegada1 = new Date(2022, 02, 13, 11, 32, 0);
+    let horaSalida1 = new Date(2022, 02, 7, 7, 31, 0);
+    let horaLlegada1 = new Date(2022, 02, 8, 8, 32, 0);
     let horaSalida1Str = definirJornada(horaSalida1);
     let horaLlegada1Str = definirJornada(horaLlegada1);
 
-    let horaSalida2 = new Date(2022, 02, 12, 8, 35, 0);
-    let horaLlegada2 = new Date(2022, 02, 13, 9, 45, 0);
+    let horaSalida2 = new Date(2022, 02, 12, 9, 30, 0);
+    let horaLlegada2 = new Date(2022, 02, 13, 10, 31, 0);
     let horaSalida2Str = definirJornada(horaSalida2);
     let horaLlegada2Str = definirJornada(horaLlegada2);
 
-    let horaSalida3 = new Date(2022, 02, 12, 11, 40, 0);
-    let horaLlegada3 = new Date(2022, 02, 13, 12, 50, 0);
+    let horaSalida3 = new Date(2022, 02, 12, 14, 30, 0);
+    let horaLlegada3 = new Date(2022, 02, 13, 15, 31, 0);
     let horaSalida3Str = definirJornada(horaSalida3);
     let horaLlegada3Str = definirJornada(horaLlegada3);
 
     let vuelo = [{
         "horaSalida":  horaSalida1Str,
         "horaLlegada": horaLlegada1Str,
-        "duracion": "1h 20Min",
+        "duracion": "1h 30Min",
         "origen": "BOG",
         "destino": "CTG",
         "precio": 375000,
@@ -61,8 +61,8 @@ function definirJornada(horaEvento) {
     {
         "horaSalida":  horaSalida2Str,
         "horaLlegada": horaLlegada2Str,
-        "duracion": "1h 20Min",
-        "duracion": "1h 20Min",
+        "duracion": "1h 30Min",
+        "duracion": "1h 30Min",
         "origen": "BGT",
         "destino": "CTG",
         "precio": 282000,
@@ -72,8 +72,8 @@ function definirJornada(horaEvento) {
     {
         "horaSalida":  horaSalida3Str,
         "horaLlegada": horaLlegada3Str,
-        "duracion": "1h 20Min",
-        "duracion": "1h 20Min",
+        "duracion": "1h 30Min",
+        "duracion": "1h 30Min",
         "origen": "BGT",
         "destino": "CTG",
         "precio": 420000,
