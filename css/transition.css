@@ -1,0 +1,90 @@
+
+  #div1 {transition-timing-function: linear;}
+  #div2 {transition-timing-function: ease;}
+  #div3 {transition-timing-function: ease-in;}
+  #div4 {transition-timing-function: ease-out;}
+  #div5 {transition-timing-function: ease-in-out;}
+  
+  div:hover {
+    width: 300px;
+  }
+.d1{
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 255, 76);
+    transition: width 5s;
+  }
+.d2{
+    width: 100px;
+    height: 100px;
+    background: rgb(255, 0, 221);
+    transition: width 2s;
+  }
+.d3{
+    width: 100px;
+    height: 100px;
+    background: rgb(12, 16, 235);
+    transition: width 3s;
+  }
+.d4{
+    width: 100px;
+    height: 100px;
+    background: rgb(178, 218, 36);
+    transition: width 1s;
+  }
+.d5{
+    width: 100px;
+    height: 100px;
+    background: rgb(174, 0, 255);
+    transition: width 2s;
+  }
+
+  /* TRANSFORM 
+  The translate() Method*/
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 102, 0);
+    border: 1px solid black;
+    transform: translate(50px,100px);
+  }
+
+/*The rotate() Method */
+  div#rotate {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDiv {
+    transform: rotate(-20deg);
+  }
+
+
+  div#scale {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(51, 255, 0);
+    border: 1px solid black;
+    transform: skew(20deg, 10deg);
+  }
+
+
+
+
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 30, 0);
+    border: 1px solid black;
+  }
+  
+  div#myDiv1 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
+  
+  div#myDiv2 {
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+  }

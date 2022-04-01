@@ -106,7 +106,10 @@ function cargarVuelos(horaSalida, horaLlegada, duracionTxt, origen, destino, dur
 
     let horarioLlegada = document.createElement("label");
     contentVuelo.appendChild(horarioLlegada);
-    let txtHorarioLlegada = document.createTextNode(horaLlegada);
+    let txtHorarioLlegada
+    
+    
+    = document.createTextNode(horaLlegada);
     horarioLlegada.setAttribute("class", "style-horario-llegada");
     horarioLlegada.appendChild(txtHorarioLlegada);
     

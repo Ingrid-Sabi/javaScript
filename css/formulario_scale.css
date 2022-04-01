@@ -1,0 +1,47 @@
+.contenedor{
+    visibility: hidden;
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+}
+
+.button{
+    grid-area: botones;
+    color: white;
+    margin:  0 auto;
+    font-size: 1em;
+    height: 2em;
+    width: 100%;
+    background-color: rgb(92, 95, 99);
+} 
+input{
+    font-size: 1.2em;
+    width: 70%;
+    margin: 0 auto;
+}
+.input1{
+    font-size: 1.2em;
+    width:70%;
+    height: 5em;
+}
+
+h1,h2{
+    text-align: center
+}
+
+.from-chat-visible{
+    visibility: visible;
+}
+
+.button2{
+    color: white;
+    height: 2em;
+    width:10em;
+    background-color: rgb(92, 95, 99);
+}
+
+.from-chat{
+    visibility:hidden;
+}
