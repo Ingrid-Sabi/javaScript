@@ -5,13 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/formulario_scale.css">
+    <link rel="stylesheet" href="icons/all.css">
     <title>HOMECENTER</title>
 </head>
 <body>
- <input class="button2" type="button" value="Mostrar Formulario" onclick="mostrarformulario();">
+  <div id="idHeader" class="encabezado">
+    <label class="menu-hamburguer"><i class="fas fa-bars"></i></label>
+    <label class="icono-homecenter"><img src="img/logo-home.webp"></label>
+    <label id="idLupa" class="icono-lupa"> <img src="img/lupa.png" alt=""></label>
+    <label class="carrito-compras"><img src="img/shopping-cart.png"></label></i></label>
+    <label class="icono-user"><img src="img/account.png"></label></label>
+  </div>
+  <div class="sliderMain"> 
+ <!--  <img class="encabezado img" src="img/home2.png" alt=""> --></div>
+ 
+ <input class="button2" type="button" value="Ana" onclick="mostrarformulario();">
 
     <form  id="fromchat" class="contenedor">
-   <Fieldset >
+      <fieldset>
     <label onclick="ocultarformulario();">X</label>
         <H1>Chat de ventas</H1>
         <H2>Ingrese los datos</H2>
@@ -20,7 +31,7 @@
       <input  class="input" type="text"placeholder="APELLIDO"><br><br>
       <input  class="input1" type="text"placeholder="INQUIETUD"><br><br>
       <input   class="button" type="submit" >  
-</Fieldset> 
+</fieldset>
   </form>
   <script src="js/formulario_scale.js"></script>
 </body>
