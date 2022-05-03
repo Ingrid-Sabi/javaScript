@@ -82,6 +82,42 @@ h1,h2{
                     40px         130px             1fr    40px               40px            40px;
 
 }
+.headerInvisible{
+    display: none;
+}
+.header2invisible{
+    display: none;
+}
+.header2visible{
+    display: grid;
+    border-bottom: 3px solid rgb(0,0,0, .4);
+   /*  width: 100%;
+    height: 100%; */
+    inline-size: 100%;
+    grid-template: "lupa-nueva  input-nuevo   cerrarBusqueda" 55px/
+                         70px         8fr              1fr;
+}
+.lupa-nueva{
+    display: flex;
+    grid-area: lupa-nueva;
+    margin-left: 110px;
+    margin-top: 10px;
+    
+    
+}
+.input-nuevo{
+    height: 70%;
+    width: 90%;
+    grid-area: input-nuevo;
+    margin-top: 2px;
+}
+.cerrarBusqueda{
+    grid-area: cerrarBusqueda;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 50%;
+    font-size: 1.6em;
+}
 .encabezado img{
     inline-size: 100%;
 }
