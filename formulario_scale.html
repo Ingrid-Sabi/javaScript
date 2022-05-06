@@ -25,20 +25,18 @@
   <div class="sliderMain"> 
  <!--  <img class="encabezado img" src="img/home2.png" alt=""> --></div>
  
- <input class="button2" type="button" value="Ana" onclick="mostrarformulario();">
-
-    <form  id="fromchat" class="contenedor">
-      <fieldset>
-    <label onclick="ocultarformulario();">X</label>
+ 
+    <form  id="formAna" class="form-ana-hidden">
+    <label id="cerrarForm" class="cerrar-form-visible">X</label>
         <H1>Chat de ventas</H1>
         <H2>Ingrese los datos</H2>
       
       <input  class="input" type="text" placeholder="NOMBRE"> <br><br>
       <input  class="input" type="text"placeholder="APELLIDO"><br><br>
       <input  class="input1" type="text"placeholder="INQUIETUD"><br><br>
-      <input   class="button" type="submit" >  
-</fieldset>
-  </form>
+      <input   class="button" type="submit" > 
+    </form> 
+  <img  id="imgAna" class="img-ana-visible" src="img/ana.png" alt="ana">
   <script src="js/formulario_scale.js"></script>
 </body>
 </html>

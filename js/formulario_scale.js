@@ -1,15 +1,23 @@
 "use strict"
 
+const imgAna = document.getElementById("imgAna");
+const formAna = document.getElementById("formAna");
+const cerrarForm = document.getElementById("cerrarForm");
 
-function mostrarformulario() {
-    let fromchat =document.getElementById("fromchat");
-    fromchat.classList.add("from-chat-visible")
-}
+imgAna.addEventListener("click", function(){
+    formAna.classList.remove("form-ana-hidden");
+    formAna.classList.add("form-ana-visible");
+    imgAna.classList.remove("img-ana-visible");
+    imgAna.classList.add("img-ana-invisible")
+});
 
-function  ocultarformulario(){
-    let from = document.getElementById("fromchat");
-    from.classList.remove("from-chat-visible");
-} 
+cerrarForm.addEventListener("click", function(){
+    formAna.classList.add("form-ana-hidden");
+    formAna.classList.remove("form-ana-visible");
+    imgAna.classList.add("img-ana-visible");
+    imgAna.classList.remove("img-ana-invisible");
+});
+
 
 const lupa = document.getElementById("idLupa");
 const menu1 = document.getElementById("idHeader");
