@@ -1,0 +1,23 @@
+.botonAdelante{
+    cursor: pointer;
+    position: fixed;
+    bottom: 500px;
+    right: 50px;
+}
+
+.toyota1-visible{
+    position: fixed;
+    left: 0;
+}
+.toyota1-oculta{
+    position: fixed;
+    left: -100%;
+}
+.toyota2-oculta{
+    position: fixed;
+    left: 100%;
+}
+.toyota2-visible{
+    position: fixed;
+    left: 0;
+}
